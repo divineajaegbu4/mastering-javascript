@@ -14,6 +14,12 @@ NB: Human language is ambiguous(not clear). Programming language must be precise
 - **undefined**: Variable exist but has no value(accidental emptiness)
 - **null**: Explicitly empty(international emptiness)
 
+OR
+
+- **undefined** → JavaScript’s default emptiness (unassigned).
+
+- **null** → Your intentional emptiness (you set it to mean “nothing here”).
+
 NB: Quirky JS behavior(unexpected behavior): e.g typeof null = "Object"
 
 ### Variable declaration
